@@ -1,19 +1,18 @@
-## Introduction
++ Make sure you have these lines of code in your program to set up your connection with the Sense HAT. If you already have these, there is no need to add the code more than once.
 
-Add project description here. What will learners be making?
+```python
+from sense_hat import SenseHat
+sense = SenseHat()
+```
 
-### What you will make
++ Add this code to display a single letter on the LED matrix
 
-Add something here to showcase here, for example:
+```python
+sense.show_letter("Z")
+```
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+The letter "Z" will appear on the screen. You can change which letter is displayed by altering the letter in quotes (`""`).
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+You can try it out here:
 
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+<iframe src="https://trinket.io/embed/python/e273580768" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
