@@ -15,4 +15,8 @@ If you run this code, the letter "Z" will appear on the screen. You can change w
 
 Try it out here:
 
-<iframe src="https://trinket.io/embed/python/e273580768" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/rpi-sensehat-show-letter-example" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+The Code Editor shows the Sense HAT on its side, so the picture is turned a quarter-turn clockwise. If you see a white smiley face, click **Run** again.
+
+[Open this code in the Code Editor](https://editor.raspberrypi.org/en/projects/rpi-sensehat-show-letter-example){:target="_blank"}
