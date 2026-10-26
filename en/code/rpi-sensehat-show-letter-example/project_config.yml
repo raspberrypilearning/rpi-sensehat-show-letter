@@ -1,0 +1,4 @@
+name: "Sense HAT show letter"
+identifier: "rpi-sensehat-show-letter-example"
+type: 'python'
+build: true
